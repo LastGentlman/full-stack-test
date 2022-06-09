@@ -2,7 +2,7 @@ import {BigBox, Container, Form, PinkBox} from './Contacto.style';
 import useFormName from '../utils/useFormName'; //FIXME: hacer otro?
 
 export default function Contacto() {
-  const register = (e) => { //FIXME: eliminar este metodo?
+  const register = (e) => { //FIXME: hacer funcionar
     e.preventDefault();
     console.log({ values });
   }

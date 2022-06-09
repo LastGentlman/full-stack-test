@@ -2,7 +2,7 @@ import {BigBox, Container, Form, PinkBox} from './Nacimiento.style';
 import useFormName from '../utils/useFormName'; //FIXME: hacer otro?
 
 export default function Nacimiento() {
-  const register = (e) => { //FIXME: eliminar este metodo?
+  const register = (e) => { //FIXME: hacer funcionar
     e.preventDefault();
     console.log({ values });
   }
