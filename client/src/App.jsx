@@ -2,9 +2,7 @@ import { GlabalStyle } from './App.style';
 import Contacto from './components/Contacto';
 import Nacimiento from './components/Nacimiento';
 import Nombre from './components/Nombre';
-import Inicio from './components/Inicio';
-// import _uniqueId from 'lodash/uniqueId';
-// import { WithControlledForm } from 'with-controlled-form'
+// import Inicio from './components/Inicio';
 
 export default function App() {
     // const [id] = useState(_uniqueId('prefix-'));
@@ -12,7 +10,7 @@ export default function App() {
   return (
     <>
       <GlabalStyle />
-      <Inicio />
+      {/* <Inicio /> */}
       <Nombre 
         // key={id}
         // name={''}
