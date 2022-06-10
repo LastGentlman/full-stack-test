@@ -21,7 +21,7 @@ export default function Nombre() {
           <input name={values.second} type="text" placeholder='Segundo Nombre' onChange={handleChange} />
           <input name={values.lastName} type="text" placeholder='Apellido Paterno' onChange={handleChange} />
           <input name={values.lastName2} type="text" placeholder='Apellido Materno' onChange={handleChange} />
-          <input type="submit" value="Iniciar" /> {/* FIXME aqui no va a ir boton creo que lo debo pasar por props a otro componente*/}
+          <input type="submit" value="Continuar" /> {/* FIXME aqui no va a ir boton creo que lo debo pasar por props a otro componente*/}
         </Form>
         <PinkBox isTrue={false} />
       </Container>

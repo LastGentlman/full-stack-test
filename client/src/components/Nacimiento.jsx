@@ -14,11 +14,11 @@ export default function Nacimiento() {
       <img src="../../imgs/Screenshot from 2022-06-07 19-29-51.png" alt="agent_pic" />
       <Container>
         <h3>Cual es tu fecha de Nacimiento?</h3>
-        <Form onSubmit={handleSubmit}> {/* FIXME aqui no va a ir boton creo que lo debo pasar per props a otro componente*/}
+        <Form onSubmit={handleSubmit}> {/* FIXME aqui no va a ir boton creo que lo debo pasar por props a otro componente*/}
           <input name={values.day} type='text' placeholder='Dia' onChange={handleChange} />
           <input name={values.month} type='text' placeholder='Mes' onChange={handleChange} />
           <input name={values.year} type='text' placeholder='Año' onChange={handleChange} />
-          <input type='submit' placeholder='Iniciar' /> {/* FIXME aqui no va a ir boton creo que lo debo pasar per props a otro componente*/}
+          <input type='submit' value='Continuar' /> {/* FIXME aqui no va a ir boton creo que lo debo pasar por props a otro componente*/}
         </Form>
         <PinkBox isTrue={false} />
       </Container>
